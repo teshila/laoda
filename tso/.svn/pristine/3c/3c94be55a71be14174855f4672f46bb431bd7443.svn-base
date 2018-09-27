@@ -1,0 +1,15 @@
+#database connection config
+jdbc.driver = com.mysql.jdbc.Driver
+jdbc.url = jdbc:mysql://120.78.225.98:3306/so?useSSL=true&useUnicode=true&characterEncoding=utf-8
+jdbc.username = root
+jdbc.password = 015310qq
+jdbc.initialPoolSize=3
+jdbc.minPoolSize=3
+jdbc.maxPoolSize=50
+jdbc.maxIdleTime=120
+
+#hibernate config
+hibernate.dialect = org.hibernate.dialect.MySQLDialect
+hibernate.show_sql = true
+hibernate.format_sql = true
+hibernate.hbm2ddl.auto =update
